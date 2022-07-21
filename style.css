@@ -89,16 +89,18 @@ body > *{
     font-weight: 800;
     cursor: pointer;
     letter-spacing: 3px;
-    box-shadow: 0px 10px 40px -12px
+    box-shadow: 0px 10px 40px -12px;
+    color: #00000081;
 }
 .card-login > img{
     width: 100%;
-    height: auto;
+    height: 100%;
+   
 }
     
 .btn-login:hover {
-    transform: scale(1.1);
-    transition: all 0.5s;
+    transform: scale(1.01);
+    transition: all 0.5s ;
     } 
 @media only screen and (max-width: 600px){
     .main-login{
@@ -124,7 +126,17 @@ body > *{
         width: 100%;
         height: auto;
     }
-    
 }
+    .line{
+       margin-top: 3%;
+       
+    }
+ .btn-esq{
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0);
+    
+ }
 
 
